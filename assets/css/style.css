@@ -3,3 +3,26 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #828282;
+}
+
+.navbar .name {
+    margin: 1rem;
+}
+
+.navbar .name p {
+    font-size: 1.7rem;
+}
+
+.navbar .nav {
+    display: flex;
+}
+
+.navbar .nav p {
+    margin: 1rem;
+    font-size: 1.5rem;
+}
