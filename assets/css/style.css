@@ -7,7 +7,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: #1c1c1c;
+    background-color: #14E627;
     color: #fff;
 }
 
@@ -32,22 +32,26 @@
     display: grid;
     grid-gap: 0.9rem;
     grid-template-columns: repeat(2, 1fr);
-    margin-left: 5rem;
-    margin-right: 5rem;
+    /* margin-left: 5rem; */
+    /* margin-right: 5rem; */
+    background-color: beige;
 }
 
 .intro .image img {
+    margin-top: 1rem;
     max-width: 100%;
+    border-radius: 1rem;
 }
 
 .main_1 {
-    margin-top: 6rem;
+    margin-top: 8rem;
+    margin-left: 4rem;
 }
 
 .main_1 p {
     margin-bottom: 1.5rem;
     font-size: 1.7rem;
-    color: #828282;
+    color: #5e5b5b;
 }
 
 .main_1 h3 {
@@ -56,4 +60,31 @@
 
 #stan {
     margin-top: 1rem;
- }
+}
+
+.icons, .btns {
+    margin-left: 3rem;
+}
+
+.icons a {
+    margin-left: 1rem;
+}
+
+.icons {
+    color: #0A66C2;
+}
+
+#button {
+    margin-top: 2rem;
+}
+
+#button button {
+    padding: 0.6rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    background-color: #4681f4;
+    color: #fff;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
