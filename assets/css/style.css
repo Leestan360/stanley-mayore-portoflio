@@ -4,7 +4,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-.navbar {
+#navigation {
     display: flex;
     justify-content: space-between;
     background-color: #14E627;
@@ -44,7 +44,7 @@
 }
 
 .main_1 {
-    margin-top: 8rem;
+    margin-top: 6rem;
     margin-left: 4rem;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .main_1 h3 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
 }
 
 #stan {
@@ -87,4 +87,19 @@
     border: none;
     border-radius: 0.3rem;
     cursor: pointer;
+}
+
+.skills {
+    display: grid;
+    grid-gap: 0.9rem;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: beige;
+}
+
+.skills .skill-img img {
+    margin-top: 1rem;
+    max-width: 90%;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    margin-left: 4rem;
 }
