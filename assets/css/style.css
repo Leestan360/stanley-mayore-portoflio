@@ -34,7 +34,7 @@
 
 .intro {
     display: grid;
-    grid-gap: 0.9rem;
+    grid-gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
     /* margin-left: 5rem; */
     /* margin-right: 5rem; */
@@ -44,7 +44,8 @@
 .intro .image img {
     margin-top: 1rem;
     max-width: 100%;
-    border-radius: 1rem;
+    max-height: 85%;
+    border-radius: 25rem;
 }
 
 .main_1 {
@@ -66,16 +67,20 @@
     margin-top: 1rem;
 }
 
-.icons, .btns {
+#icons, .btns {
     margin-left: 3rem;
 }
 
-.icons a {
+#icons a {
     margin-left: 1rem;
 }
 
-.icons {
+/* #icons {
     color: #0A66C2;
+} */
+
+#icons a:hover {
+    color: #FD6414;
 }
 
 #button {
@@ -86,7 +91,7 @@
     padding: 0.6rem;
     margin-left: 1rem;
     font-size: 1.2rem;
-    background-color: #4681f4;
+    background-color: #FD6414;
     color: #fff;
     border: none;
     border-radius: 0.3rem;
@@ -101,9 +106,8 @@
 }
 
 .skills .skill-img img {
-    margin-top: 1rem;
     max-width: 90%;
     border-radius: 1rem;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
     margin-left: 4rem;
 }
