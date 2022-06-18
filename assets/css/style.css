@@ -7,7 +7,7 @@
 #navigation {
     display: flex;
     justify-content: space-between;
-    background-color: #14E627;
+    background-color: #FD6414;
     color: #fff;
 }
 
@@ -17,6 +17,10 @@
 
 .navbar .name p {
     font-size: 1.7rem;
+}
+
+#name-color {
+    color: #FD6414;
 }
 
 .navbar .nav {
